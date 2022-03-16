@@ -20,6 +20,8 @@ List.all.each do |list|
   puts "#{list.id}, title: #{list.title} desc: #{list.desc}"
 end
 
+
+puts "Todo Numbers: #{Todo.all.count}"
 Todo.all.each do |todo|  
   puts "#{todo.id}, title: #{todo.title} complete: #{todo.complete}"
 end
