@@ -2,14 +2,14 @@ Note.delete_all
 Todo.delete_all
 List.delete_all 
 
-10.times do 
+6.times do 
   list = List.create(
     title: Faker::Kpop.boy_bands,
     desc: Faker::Lorem.paragraph
   )
   3.times do
     todo = Todo.create(
-      title: Faker::Cannabis.strain,
+      title: Faker::Mountain.name,
       complete: Faker::Boolean.boolean,
       list_id: list.id
     )
