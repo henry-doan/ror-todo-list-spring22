@@ -16,7 +16,7 @@ const App = () => (
       <Route path='/lists' element={<Lists />} />
       {/* /lists/4/todos */}
       <Route path='/lists/:listId/todos' element={<Todos />} />
-      <Route path='/:todoId/notes' element={<Notes />} />
+      <Route path='/todos/:todoId/notes' element={<Notes />} />
       <Route path='*' element={<Nomatch />} />
     </Routes>
   </>
