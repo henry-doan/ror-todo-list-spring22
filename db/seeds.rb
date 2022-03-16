@@ -15,12 +15,12 @@ List.delete_all
   end 
 end
 
-puts "Number of lists: #{List.all.count}"
+puts "All List Number: #{List.all.count}"
 List.all.each do |list|  
   puts "#{list.id}, title: #{list.title} desc: #{list.desc}"
 end
 
-puts "Number of todo: #{Todo.all.count}"
+puts "All Todo numbers: #{Todo.all.count}"
 Todo.all.each do |todo|  
   puts "#{todo.id}, title: #{todo.title} complete: #{todo.complete}"
 end
