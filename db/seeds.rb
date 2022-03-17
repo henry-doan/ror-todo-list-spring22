@@ -1,7 +1,7 @@
 Todo.delete_all
 List.delete_all 
 
-5.times do 
+10.times do 
   list = List.create(
     title: Faker::Kpop.boy_bands,
     desc: Faker::Lorem.paragraph
